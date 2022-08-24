@@ -1,0 +1,17 @@
+
+  div{
+    background-color: #87CEEB;
+  }  
+
+  ul{
+    text-align: center;
+    list-style: none;
+  
+  }
+
+  ul ::first-letter{
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: larger;
+
+  }

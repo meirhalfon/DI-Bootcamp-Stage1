@@ -1,0 +1,36 @@
+html {
+    background-color: sandybrown;
+    margin: 200px;
+}  
+h1{
+    border-bottom: dotted 5px;
+    font-style: italic;
+    font-weight: bold 200px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+div {
+   
+    background-color: cornsilk;
+    text-align: center;
+    border: dotted 5px ;
+
+  }  
+  
+  p{
+    text-align: left;
+   
+  }
+  ul{
+    text-align: center;
+    list-style: none;
+    font-style: italic;
+
+  }
+
+  ul ::first-letter{
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: larger;
+
+  }
