@@ -1,0 +1,80 @@
+  
+   body {
+	background-repeat:no-repeat;
+	background-position:center top;
+	background-color: #FFF;
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	background-color: #FFF;
+	margin: 0; /* il est conseillÃ© de mettre Ã  zÃ©ro la marge et le remplissage de l'Ã©lÃ©ment body, pour tenir compte des diffÃ©rentes valeurs par dÃ©faut des navigateurs */
+	padding: 2;
+	border: 2px;
+	border-color: #333;
+	box-shadow: 4px 4px 8px #888888;
+	}
+    .oneColFixCtrHdr #container {
+	width: 980px;  /* paramÃ©trage de la largeur Ã  20 pixels de moins que le plein Ã©cran (800 pixels) pour tenir compte de l'habillage du navigateur et Ã©viter l'apparition d'un ascenseur horizontal */
+	background: #FFFFFF;
+	margin: 0 auto;
+	border: 2px;
+	border-color: #333;
+	box-shadow: 7px 7px 12px #888888;
+	border-style: solid;
+	 }
+    .oneColFixCtrHdr #header {
+	padding: 3px 3px 3px 3px;  /* ce remplissage correspond Ã  l'alignement Ã  gauche des Ã©lÃ©ments des div qui apparaissent en dessous. Si, au lieu de texte, c'est une image qui est insÃ©rÃ©e dans l'Ã©lÃ©ment #header, il est conseillÃ© de supprimer le remplissage. */
+	background-color: #FFFFFF;
+	padding-top: 3px;
+    }
+    .oneColFixCtrHdr #header h1 {
+    	margin: 0; /* la mise Ã  zÃ©ro de la marge du dernier Ã©lÃ©ment du div #header permet d'Ã©viter une disparition de la marge (espace inexplicable entre les Ã©lÃ©ments div). Si l'Ã©lÃ©ment div est entourÃ© d'une bordure, cette prÃ©caution n'est pas nÃ©cessaire, car la bordure Ã©vite Ã©galement la disparition de la marge */
+    	padding: 3px 3px; /* l'utilisation de remplissage, au lieu d'une marge, permet d'Ã©loigner l'Ã©lÃ©ment des bords de l'Ã©lÃ©ment div */
+    }
+    .oneColFixCtrHdr #mainContent {
+	padding: 10; /* ne pas oublier que le remplissage est l'espace Ã  l'intÃ©rieur du cadre de l'Ã©lÃ©ment div, alors que la marge est l'espace Ã  l'extÃ©rieur de celui-ci */
+	background: #FFFFFF;
+	margin-top: 0px;
+	margin-bottom: 5px;
+	border: 2px;
+	border-color: #999;
+    }
+    .oneColFixCtrHdr #footer {
+	padding: 3px 3px;
+	background-color: #FFFFFF;
+	border: 2px;
+    }
+    .oneColFixCtrHdr #footer p {
+    	margin: 0; /* la mise Ã  zÃ©ro de la marge du premier Ã©lÃ©ment du pied de page permet d'Ã©viter une possible disparition de la marge (espace entre les Ã©lÃ©ments div) */
+    	padding: 3px 3px; /* l'utilisation d'un remplissage pour cet Ã©lÃ©ment crÃ©e un espace, tout comme une marge l'aurait fait, mais en Ã©vitant le risque de disparition de la marge */
+    }
+    
+    
+
+.Style2 {color: #FFFFFF}
+.Style3 {
+	font-size: smaller
+}
+a:link {
+	color: #999;
+	text-decoration: none;
+}
+a:visited {
+	color: #0066FF;
+	text-decoration: none;
+}
+a:hover {
+	color: #CCFF00;
+	text-decoration: none;
+}
+
+
+
+.Style4 {
+	color: #666666
+}
+
+
+
+a:active {
+	text-decoration: none;
+	margin-left: 0px;
+}
